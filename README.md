@@ -7,8 +7,8 @@
 ## Upgrading from 3.3.x
 
 - **Back up all your current files first.**
-- Download an [archive of this repository](https://gitlab.com/tfl-php-scripts/siteskin/-/archive/master/siteskin-master.zip). Extract the archive and go to "public" directory.
-- Update the following files with the ones from "public" directory:
+- Download an [artifact with the script of this repository](https://gitlab.com/tfl-php-scripts/siteskin/builds/artifacts/master/download?job=downloader). Extract the archive.
+- Update the following files:
   - skinnerhead.php
   - skinnerfoot.php
 - Upload the following file:

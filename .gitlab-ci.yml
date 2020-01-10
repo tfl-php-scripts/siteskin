@@ -1,10 +1,10 @@
 image: alpine:latest
 
-pages:
+downloader:
   script:
+    - mkdir siteskin
+    - cp -R public/* siteskin/
     - echo 'Publishing an artifact'
   artifacts:
     paths:
-      - public
-  only:
-    - master
+      - siteskin
