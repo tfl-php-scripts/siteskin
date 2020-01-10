@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  apache:
+    container_name: siteskin2
+    image: php:7.4-apache
+    ports:
+      - 8085:80
+    volumes:
+      - ./public:/var/www/html
+      - ./docker/index.php:/var/www/html/index.php
+      - ./docker/skinconfig.inc.php:/var/www/html/skinconfig.inc.php
+      - ./docker/sample2:/var/www/html/skins/sample2
