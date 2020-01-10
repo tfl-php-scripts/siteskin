@@ -1,0 +1,10 @@
+image: alpine:latest
+
+pages:
+  script:
+    - echo 'Publishing an artifact'
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
