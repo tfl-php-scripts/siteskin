@@ -193,7 +193,7 @@ class SiteSkin
         echo '<p style="text-align: center;">';
         echo '<a href="http://scripts.indisguise.org" target="_blank">';
         echo 'Powered by SiteSkin';
-        echo '</a> &middot; <a href="http://scripts.robotess.net" title="PHP Scripts collections" target="_blank">';
+        echo '</a> &middot; <a href="http://scripts.robotess.net" title="PHP scripts collection: Enthusiast, CodeSort, SiteSkin for PHP 7" target="_blank">';
         echo 'Version <b>3.4</b> for PHP >= 7';
         echo '</a></p>';
     }

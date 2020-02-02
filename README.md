@@ -2,13 +2,13 @@
 
 ####  I'm not the author of the script, original script is here: [Siteskin](https://github.com/angelasabas/siteskin)
 
-[Siteskin](https://github.com/angelasabas/siteskin), but updated by me for PHP 7.4. Original readme by Angela is [here](public/readme.txt)
+[Siteskin](https://github.com/angelasabas/siteskin), but updated by me for PHP 7. Original readme by Angela is [here](public/readme.txt)
 
 ## Upgrading from 3.3.x
 
 - **Back up all your current files first.**
-- Download an [archive of this repository](https://gitlab.com/tfl-php-scripts/siteskin/-/archive/master/siteskin-master.zip). Extract the archive and go to "public" directory.
-- Update the following files with the ones from "public" directory:
+- Download an [archive of this repository](https://gitlab.com/tfl-php-scripts/siteskin/-/archive/master/siteskin-master.zip?path=public). Extract the archive and go to "public" directory.
+- Replace the following files with the ones from "public" directory:
   - skinnerhead.php
   - skinnerfoot.php
 - Upload the following file:
@@ -28,4 +28,4 @@ require_once('skinnerfoot.php');
 ?>
 ```
     
-That's it! In case of some problems and issues please create an issue here.
+That's it! Should you encounter any problems, please create an issue here, and I will try and solve it if I can.
