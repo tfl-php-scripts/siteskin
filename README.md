@@ -1,10 +1,16 @@
 # Siteskin Enhanced (v 3.4)
 
-####  I'm not the author of the script, original script is here: [Siteskin](https://github.com/angelasabas/siteskin)
+Original author is [Angela Sabas](https://github.com/angelasabas/siteskin) / Original readme is [here](public/readme.txt).
 
-[Siteskin](https://github.com/angelasabas/siteskin), but updated by me for PHP 7. Original readme by Angela is [here](public/readme.txt)
+#### I would highly recommend not to use this script for new installations. Although some modifications were made, this script is still pretty old, not very secure, and does not have any tests, that's why please only update it if you have already installed it before.
 
-## Upgrading from 3.3.x
+This version requires at least PHP 7.2.
+
+## Upgrading instructions
+
+I'm not providing support for those who have version lower than 3.3.x.
+
+If you are using Siteskin 3.3.x (old version by Angela) or 3.4.* (my version):
 
 - **Back up all your current files first.**
 - Download an [archive of this repository](https://gitlab.com/tfl-php-scripts/siteskin/-/archive/master/siteskin-master.zip?path=public). Extract the archive and go to "public" directory.
@@ -28,4 +34,6 @@ require_once('skinnerfoot.php');
 ?>
 ```
     
+Please follow the instructions carefully. A lot of issues were related to facts that users had incorrect config files.
+
 That's it! Should you encounter any problems, please create an issue here, and I will try and solve it if I can.
