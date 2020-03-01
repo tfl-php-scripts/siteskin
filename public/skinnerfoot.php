@@ -1,7 +1,9 @@
 <?php
 /******************************************************************************
  * SiteSkin: Easy Site Skinning Script
- * Script by Angela Sabas (http://scripts.indisguise.org)
+ *
+ * Copyright (c) by Angela Sabas http://scripts.indisguise.org/
+ * Copyright (c) 2019 by Ekaterina (contributor) http://scripts.robotess.net
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,7 +21,7 @@
  * For more information please view the readme.txt file.
  ******************************************************************************/
 
-if($siteSkin === null || !$siteSkin instanceof Robotess\SiteSkinEnhanced\SiteSkin) {
+if ($siteSkin === null || !$siteSkin instanceof Robotess\SiteSkinEnhanced\SiteSkin) {
     echo 'WARNING: $siteSkin is null or of wrong type. Please make sure you included skinnerhead.php first';
     return;
 }

@@ -1,7 +1,9 @@
 <?php
 /******************************************************************************
  * SiteSkin: Easy Site Skinning Script
- * Script by Angela Sabas (http://scripts.indisguise.org)
+ *
+ * Copyright (c) by Angela Sabas http://scripts.indisguise.org/
+ * Copyright (c) 2019 by Ekaterina (contributor) http://scripts.robotess.net
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,7 +21,7 @@
  * For more information please view the readme.txt file.
  ******************************************************************************/
 
-require_once ('SiteSkin.php');
+require_once('SiteSkin.php');
 
 $siteSkin = new Robotess\SiteSkinEnhanced\SiteSkin('skinconfig.inc.php');
 $siteSkin->showHeader();
