@@ -1,4 +1,4 @@
-# Siteskin Enhanced (v 3.4)
+# Siteskin Enhanced (v 3.4) for PHP 7
 
 Original author is [Angela Sabas](https://github.com/angelasabas/siteskin) / Original readme is [here](public/readme.txt).
 
