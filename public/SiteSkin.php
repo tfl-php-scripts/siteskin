@@ -190,14 +190,11 @@ class SiteSkin
         if ($showCurrent) {
             echo '</p>';
         }
-
+        
         // show link -- do not remove
-        echo '<p style="text-align: center;">';
-        echo '<a href="http://scripts.indisguise.org" target="_blank">';
-        echo 'Powered by SiteSkin';
-        echo '</a> &middot; <a href="https://scripts.robotess.net" title="PHP scripts collection: Enthusiast, CodeSort, SiteSkin for PHP 7" target="_blank">';
-        echo 'Version <b>3.4</b> for PHP 7';
-        echo '</a></p>';
+        ?>
+        <p style="text-align: center;">Powered by <a href="https://scripts.robotess.net" target="_blank" title="PHP Scripts: Enthusiast, Siteskin, Codesort - ported to PHP 7">SiteSkin <?= $this->getVersion() ?></a> (original author: <a href="http://scripts.indisguise.org" target="_blank">Angela Sabas</a>)</p>
+<?php
     }
 
     public function showFooter()
@@ -232,5 +229,13 @@ class SiteSkin
         }
 
         return $settings;
+    }
+
+    /**
+     * @return string
+     */
+    public function getVersion()
+    {
+        return '[Robotess Fork] v. 1.0';
     }
 }
