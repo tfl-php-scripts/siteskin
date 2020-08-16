@@ -45,4 +45,4 @@ require_once('skinnerfoot.php');
 
 Please follow the instructions carefully. A lot of issues were caused by users having incorrect config files.
 
-That's it! Should you encounter any problems, please create an issue (here: https://gitlab.com/tfl-php-scripts/siteskin/-/issues), and I will try and solve it if I can. You can also report an issue via contact form: http://contact.robotess.net . Please note that I don't support fresh installations, only those that were upgraded from old version.
+That's it! Should you encounter any problems, please create an issue (here: https://gitlab.com/tfl-php-scripts/siteskin/-/issues), and I will try and solve it if I can. You can also report an issue via contact form: http://contact.robotess.net?box=scripts&subject=Issue+with+SiteSkin . Please note that I don't support fresh installations, only those that were upgraded from old version.
